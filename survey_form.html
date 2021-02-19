@@ -41,6 +41,41 @@
         
       <br><br>
 
+
+      <!--  Radio buttons  -->
+     <label for="Gender">Gender</label>
+        <p>
+          <input type="radio" name="gender" value="male" checked> Male <br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="other"> Other
+       </p>
+
+
+      <!--  Checkboxes  -->
+      <label for="Future plans">Technology in which you want to improve in the future:</label><br><br>
+        <fieldset id="future-plans">
+          <legend>(Check all that apply): </legend> 
+          <input type="checkbox" name="plan1"  value="front-end Projects">Front-end Projects
+          <input type="checkbox" name="plan2"  value="back-end Projects">Back-end Projects
+          <input type="checkbox" name="plan3"  value="data Visualization">Data Visualization
+          <input type="checkbox" name="plan4"  value="rust">Rust
+          <input type="checkbox" name="plan5"  value="devops">DevOps
+          <input type="checkbox" name="plan6"  value="quality assurance">Quality Assurance
+          <input type="checkbox" name="plan7"  value="lightbend">LightBend
+          <input type="checkbox" name="plan8"  value="AI/ML">AI/ML
+          <input type="checkbox" name="plan9"  value="addcours">Additional Courses
+        </fieldset>
+
+  	    <br>
+
+       <!--  TextArea -->
+      <label for="comments">Any Comments or Suggestions?</label><br><br>
+        <textarea id="comments" placeholder="enter a comment" rows="4" cols="50"></textarea>
+        <br><br>
+       
+        <!-- Submit Button -->
+       <button id="submit">submit</button>
+
   </form>
 
  </body>  
