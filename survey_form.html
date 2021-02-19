@@ -14,16 +14,32 @@
 
   <!--  User story-3-->
   <form id="survey-form" action= "https:/knoldus/survey" method="post">
-  	 
-  	  <!--  User story-4-->
-     Name: <input id="name" type="text" required><br><br>
 
-      <!--  User story-5(id="email") and 6(email validation)-->
-     Eamil:<input id="email" type="email" required ><br><br>
+     <!--  User story-4 to 16-->
+     
+  	 <label for="name" id="name-label">*Name:</label>
+     <input id="name" type="text" placeholder="Enter your name" required><br><br>
 
-      <!--  User story-7(id="number") and 8(number validation)-->
-      No. of working Projects: <input type="number" id="number">
+  	 <label for="Email" id="email-label">*Email:</label>
+  	 <input id="email" type="email" placeholder="Enter your email" required ><br><br>
+
+  	 <label for="number" id="number-label">Number of working Projects:</label>
+  	 <input type="number" id="number"  placeholder="No of working projects" min="1" max="10" > 
+  	 <br><br>
     
+
+    <!--  Dropdown  -->
+    <label for="dropdown">Which technology you like the most?</label>
+        <select id="dropdown">
+          <option value="" disabled selected>select an option</option>
+          <option value="UI">UI</option>
+          <option value="Java">Java</option>
+          <option value="Rust">Rust</option>
+          <option value="Scala">Scala</option>
+          <option value="other">Other</option>
+        </select>
+        
+      <br><br>
 
   </form>
 
